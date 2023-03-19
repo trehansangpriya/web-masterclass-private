@@ -25,8 +25,8 @@
 ```
 
 - Tags can be of 2 types:
-    - Independent tags (tags that do not need a closing tag) - ```<tagname>```
-    - Dependent tags (tags that need a closing tag) -  ```<tagname></tagname>```
+  - Independent tags (tags that do not need a closing tag) - ```<tagname>```
+  - Dependent tags (tags that need a closing tag) -  ```<tagname></tagname>```
 
 - Main HTML Tags
 
@@ -38,10 +38,10 @@
 | ```<body></body>``` | Defines the document's body. |
 
 - HTML Attributes
-    - Attributes provide additional information about HTML elements.
-    - Attributes are always specified in the start tag.
-    - Attributes usually come in name/value pairs like: name="value"
-    - Attributes can be used to add styles to HTML elements.
+  - Attributes provide additional information about HTML elements.
+  - Attributes are always specified in the start tag.
+  - Attributes usually come in name/value pairs like: name="value"
+  - Attributes can be used to add styles to HTML elements.
 
 - HTML Elements
 
@@ -84,7 +84,7 @@
 
 | Attribute | Description |
 | --------- | ----------- |
-| ```href``` | Specifies the URL of the page the link goes to. |
+| ```href``` | Specifies the URL of the page the link goes to / Page / File / Section |
 | ```target``` | Specifies where to open the linked document. |
 
 ### Text Formatting
@@ -106,7 +106,7 @@
 
 ### HTML Comments
 
-- Use comments to explain code, and to prevent execution when testing alternative code. 
+- Use comments to explain code, and to prevent execution when testing alternative code.
 - <!-- This is a comment -->
 
 ### HTML Images
@@ -123,6 +123,16 @@
 | ```alt``` | Specifies an alternate text for the image. |
 | ```width``` | Specifies the width of the image. |
 | ```height``` | Specifies the height of the image. |
+
+FREE IMAGE SOURCES:
+
+- <https://unsplash.com/>
+- <https://www.pexels.com/>
+- <https://pixabay.com/>
+
+API IMAGE SOURCES:
+
+- <https://source.unsplash.com/sizexsize/?query>
 
 ### HTML Tables
 
@@ -166,3 +176,67 @@
 | Tag | Description |
 | --- | ----------- |
 | ```<div></div>``` | Defines a section in a document. |
+
+### HTML Styles (Inline CSS)
+
+We can add styles to HTML elements using the style attribute.
+
+- ```<tagname style="property:value;"></tagname>```
+  
+### HTML Classes
+
+We can add styles to HTML elements using classes.
+
+- ```<tagname class="classname"></tagname>```
+- ```<tagname class="classname1 classname2"></tagname>```
+
+defining a class in CSS:
+
+- ```.classname { property: value; }```
+
+### HTML Ids
+
+We can add styles to HTML elements using ids.
+
+- ```<tagname id="idname"></tagname>```
+
+defining an id in CSS:
+
+- ```#idname { property: value; }```
+
+### HTML Buttons
+
+- Type: Dependent Tag & Inline Element
+
+| Tag | Description |
+| --- | ----------- |
+| ```<button></button>``` | Defines a clickable button. |
+
+| Attribute | Description |
+| --------- | ----------- |
+| ```type``` | Specifies the type of button. |
+| ```onclick``` | Specifies the JavaScript to execute when a user clicks on the button. |
+
+### HTML Input
+
+- Type: Independent Tag & Inline Element
+
+| Tag | Description |
+| --- | ----------- |
+| ```<input>``` | Defines an input control. |
+
+| Attribute | Description |
+| --------- | ----------- |
+| ```type``` | Specifies the type of input control. |
+| ```value``` | Specifies the value of the input control. |
+| ```placeholder``` | Specifies a short hint that describes the expected value of the input control. |
+| ```onclick``` | Specifies the JavaScript to execute when a user clicks on the button. |
+
+### HTML Select
+
+- Type: Dependent Tag & Inline Element
+
+| Tag | Description |
+| --- | ----------- |
+| ```<select></select>``` | Defines a drop-down list. |
+| ```<option></option>``` | Defines an option in a drop-down list. |

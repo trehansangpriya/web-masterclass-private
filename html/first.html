@@ -3,11 +3,34 @@
 
 <head>
     <title>Document</title>
+    <style>
+        h1 {
+            color: dodgerblue;
+            font-size: 48px;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .font-big {
+            font-size: 64px;
+        }
+
+        #parra2 {
+            color: green;
+        }
+
+        .button {
+            margin: 24px;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Hello World</h1>
-    <p>
+    <p class="red font-big">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis sint deleniti obcaecati necessitatibus
         doloremque
         delectus nesciunt eaque earum repellendus rerum, libero accusamus laudantium, facere pariatur, ut dolorem hic
@@ -15,7 +38,7 @@
         itaque, optio tempore, deleniti nam eius veniam?
     </p>
     <h2>Hello World</h2>
-    <p>
+    <p id="parra2">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis sint deleniti obcaecati necessitatibus
         doloremque
         delectus nesciunt eaque earum repellendus rerum, libero accusamus laudantium, facere pariatur, ut dolorem hic
@@ -51,6 +74,7 @@
     <!-- Image using an online link -->
     <img src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
         alt="Sunset" height="300px">
+    <img src="https://source.unsplash.com/1280x720?pink,sky" alt="Nature" width="50%">
     <!-- Image using folders -->
     <img src="aurora.avif" alt="Northern Lights" width="500px">
     <!-- Adding a GIF through a link -->
@@ -98,6 +122,17 @@
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
+    <!-- Button -->
+    <button class="button">Click Me</button>
+    <!-- Input -->
+    <input type="text">
+    <!-- Select -->
+    <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
 </body>
 
 </html>
